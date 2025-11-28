@@ -1,9 +1,10 @@
 // pages/index.js (CLIENT VERSION – FIXED FOR NEXT.JS)
 import { useEffect, useState } from "react";
 
-const CHAT_API_URL = "https://sezukuu.vercel.app/api/chat";
-const REGISTER_API_URL = "https://sezukuu.vercel.app/api/register";
-const CONFIG_API_URL_BASE = "https://sezukuu.vercel.app/api/config";
+const HOME_BASE = "https://home-omega-plum.vercel.app";
+const CHAT_API_URL = `${HOME_BASE}/api/chat`;
+const REGISTER_API_URL = `${HOME_BASE}/api/register`;
+const CONFIG_API_URL_BASE = `${HOME_BASE}/api/config`;
 
 export default function Home() {
   // Safe window check
